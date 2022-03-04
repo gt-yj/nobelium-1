@@ -3,7 +3,6 @@ import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
 import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
-import Image from 'next/image'
 
 export async function getStaticProps () {
   const posts = await getAllPosts({ includePages: false })
