@@ -23,12 +23,11 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['"IBM Plex Sans"', ...fontFamily.sans, ...fontSansCJK],
+        sans: ['"system-ui"', ...fontFamily.sans, ...fontSansCJK],
         serif: ['"Source Serif"', ...fontFamily.serif, ...fontSerifCJK],
         noEmoji: [
-          '"IBM Plex Sans"',
+          '"system-ui"',
           'ui-sans-serif',
-          'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',
           'sans-serif'
