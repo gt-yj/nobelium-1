@@ -42,7 +42,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src="https://pbs.twimg.com/profile_images/1491731518209032194/Uvb4BHFf_400x400.jpg"
+                  src="/avatar.png"
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
