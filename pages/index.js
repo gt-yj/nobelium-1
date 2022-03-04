@@ -19,32 +19,6 @@ export async function getStaticProps () {
     revalidate: 1
   }
 }
-export function Home() {
-  return (
-      <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
-        <div className="flex sm:flex-row justify-between w-full">
-          <div className="flex flex-col pr-2 justify-start">
-            <h1 className="font-semibold text-2xl tracking-tight text-black dark:text-white">
-              Yash Jain
-            </h1>
-            <h2 className="text-gray-600 dark:text-gray-400 text-base font-medium">
-              Thinker, Designer <br /> Developer, He/him.
-            </h2>
-            
-          </div>
-          <div className="w-[82px] w-min-[82px]">
-            <Image
-              alt="Yash Jain"
-              height={82}
-              width={82}
-              src="/avatar.jpg"
-              className="rounded-full filter grayscale"
-            />
-          </div>
-        </div>
-      </div>
-  );
-}
 
 const blog = ({ postsToShow, page, showNext }) => {
   return (
