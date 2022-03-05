@@ -32,26 +32,7 @@ export default function Home() {
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">I share my ideas almost every day. I mainly hangout on Twitter. But 
         this is my favourite place. Every now and then I write and share my thoughts Here.
-        <br /> <br />
-        Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.
-        <br /><br />
-        Currenly I'm also reading 
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://minimalistentrepreneur.com/book"
-          className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6"
-        >
-          the Minimalist Entrepreneur
-      
-        </a>
-         by Sahil Lavingia. I'm loving it.
-        <br /><br />
-        <Link href="/blog">
-        <a className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6">Here</a></Link>
-         are all Articles I've written so far. Have fun Navigating around this small garden.
-        </p>
-        
+        <br /><br />Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.</p>
         <span className="h-8" />
       </div>
     </Container>
