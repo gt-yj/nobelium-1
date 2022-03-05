@@ -20,8 +20,8 @@ module.exports = {
   },
   rules: {
     'react/prop-types': 'off',
-    'react/no-unescaped-entities': 'off',
-    '@next/next/no-page-custom-font': 'off'
+    'react/no-unescaped-entities': 0,
+    '@next/next/no-page-custom-font': 0
   },
   globals: {
     React: true
