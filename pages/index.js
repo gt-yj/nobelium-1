@@ -13,7 +13,6 @@ const blog = () => {
             <h2 className="text-gray-600 dark:text-gray-400 text-base font-medium">
               Thinker, Designer <br />and Developer, He/him.
             </h2>
-            
           </div>
           <div className="w-[82px] w-min-[82px]">
             <Image
@@ -29,14 +28,10 @@ const blog = () => {
         What I'm doing now?
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">I share my ideas almost every day. I mainly hangout on Twitter. But 
-        this is my favourite place. Every now and then I write and share my thoughts Here.
-        <br /><br />Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.</p>
+        this is my favourite place. Every now and then I write and share my thoughts Here.<br /><br />Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.</p>
         <span className="h-8" />
       </div>
     </Container>
-  );
+  )
 }
-
 export default blog
-
-    
