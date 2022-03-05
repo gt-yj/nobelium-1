@@ -35,7 +35,7 @@ export default function Home() {
         <br /> <br />
         Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.
         <br /><br />
-        Currenly I'm also reading{' '}
+        Currenly I'm also reading 
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -45,11 +45,11 @@ export default function Home() {
           the Minimalist Entrepreneur
       
         </a>
-        {' '}by Sahil Lavingia. I'm loving it.
+         by Sahil Lavingia. I'm loving it.
         <br /><br />
         <Link href="/blog">
         <a className="text-blue-500 leading-7 rounded-lg font-medium underline transition-all h-6">Here</a></Link>
-        {' '}are all Articles I've written so far. Have fun Navigating around this small garden.
+         are all Articles I've written so far. Have fun Navigating around this small garden.
         </p>
         
         <span className="h-8" />
