@@ -27,8 +27,9 @@ const blog = () => {
         <h3 className="font-medium text-lg md:text-xl tracking-tight mb-4 mt-20 text-black dark:text-white w-full">
         What I'm doing now?
         </h3>
-        <p className="text-gray-600 dark:text-gray-400 mb-4">I share my ideas almost every day. I mainly hangout on Twitter. But 
-        this is my favourite place. Every now and then I write and share my thoughts Here. Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.</p>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">
+          I share my ideas almost every day. I mainly hangout on Twitter.
+         But this is my favourite place. Every now and then I write and share my thoughts Here. Apart from that, Currenly I'm building Favy. It is on early development stage and we are excited for it. The journey is fabulous.</p>
         <span className="h-8" />
       </div>
     </Container>
