@@ -16,7 +16,7 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://cards.microlink.io/?preset=pedro&p=DwPgUABBwDIJYDsDWkoQBYCcCmAzAvAOToAuJADgM4BcA9LbgPYImUB0A5o4xwDbYBDcnHYBjRgFtaoypQD8uARLi8AnvgCSLbJmoAWAAwGANAFYjAMgAmI8rwHqARr0aikhVFBy8ilEqv5KdGxsEg8oWnBUYAAxfgAPTwhKePwAbzSkqCYWGKUVVWoIQi0SHUJjLIgckgBlOAAvbCKAZlNKtDRcBIAROBxREjhmIsJxXgBXCQQKquC4DlJRgEYjAFJZzqhyASsbBA5RgA4DcniIE7PwraSAX1vUcE7YhOTUjIgOISKAJhMIAS8BYIDRlCQ0YqibDaTCECD3J5bYAAIUYiS2aAElCIcAkHGuGMomFERFIFBo9FUWPQACsBIg2AA3HRQ3hsITkWgCRkCEgCTBscgHAlbFLpTIYzqORiYKw6ABKuzgEwhhAAnBq1VcOpKoDZKHYHKNnK53DrdQB3OBWEjoVrtKqdeaLEj2x3wh4YyJVYAAFWw8RIb3F1WYJAA6tgFksIOYDB6QABNakQABS9IQwFo-sDiKgWbiAaizxzQbFHwkroghmMEAkvCKADZ4wi0gBHCY6VRsIYkfi3LOlxEFhLgLMgIA&title=', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/yashjaing',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
