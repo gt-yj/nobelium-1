@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Yash Jain',
   author: 'Yash Jain',
   email: 'yash@yashjaing.com',
-  link: 'https://yashjaing.com',
+  link: 'https://yash.run',
   description: 'Designing Experiences.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
