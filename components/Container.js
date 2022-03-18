@@ -9,7 +9,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
   const url = BLOG.path.length ? `${BLOG.link}/${BLOG.path}` : BLOG.link
   const meta = {
     title: BLOG.title,
-    image: 'https://yashjaing.com/static/images/banner.png',
+    image: 'https://yash.run/og.png',
     type: 'website',
     ...customMeta
   }
