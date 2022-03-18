@@ -9,6 +9,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
   const url = BLOG.path.length ? `${BLOG.link}/${BLOG.path}` : BLOG.link
   const meta = {
     title: BLOG.title,
+    image: 'https://yashjaing.com/static/images/banner.png',
     type: 'website',
     ...customMeta
   }
@@ -38,20 +39,14 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         />
         <meta
           property="og:image"
-          content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
-            meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg`}
-        />
+          content= {meta.image} />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:title" content={meta.title} />
         <meta
           name="twitter:image"
-          content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
-            meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg`}
-        />
+          content={meta.image} />
         {meta.type === 'article' && (
           <>
             <meta
