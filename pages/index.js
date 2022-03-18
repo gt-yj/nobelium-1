@@ -35,9 +35,9 @@ const blog = () => {
           href="https://flowcode.studio"
           className="underline"
         >
-         Flowcode
+          Flowcode
       
-        </a> I focus on fit and finish to solve problems and create seamless experiences with no-code tools like Bubble and Webflow.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.</p>
+        </a>I focus on fit and finish to solve problems and create seamless experiences with no-code tools like Bubble and Webflow.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.</p>
         <span className="h-8" />
       </div>
     </Container>
