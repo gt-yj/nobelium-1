@@ -8,9 +8,10 @@ const ExternalLink = ({ href, children }) => (
   >
     {children}
   </a>
-);
-export default function Footer() {
+)
+const footer = () => {
   return (
+
     <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full px-4">
       <hr className="w-full border-1 border-gray-200 dark:border-gray-800 mb-8" />
       <div className="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3">
@@ -43,3 +44,4 @@ export default function Footer() {
     </footer>
   )
 }
+export default footer
