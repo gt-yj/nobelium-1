@@ -1,20 +1,50 @@
-const Footer = ({ fullWidth }) => {
+import Link from 'next/link';
+
+const ExternalLink = ({ href, children }) => (
+  <a
+    className="text-gray-500 hover:text-gray-600 transition"
+    target="_blank"
+    rel="noopener noreferrer"
+    href={href}
+  >
+    {children}
+  </a>
+);
+
+export default function Footer() {
   return (
-    <div
-      className={`mt-6 flex-shrink-0 m-auto w-full text-gray-500 dark:text-gray-400 transition-all ${
-        !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
-      }`}
-    >
-      <hr className="border-gray-200 dark:border-gray-600" />
-      <div className="my-4 text-sm leading-6">
-        <div className="flex align-baseline justify-between flex-wrap">
-          <p>
-            Ad Astra! 🌌
-          </p>
+    <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full px-4">
+      <hr className="w-full border-1 border-gray-200 dark:border-gray-800 mb-8" />
+      <div className="w-full max-w-2xl grid grid-cols-1 gap-4 pb-16 sm:grid-cols-3">
+        <div className="flex flex-col space-y-4">
+          <Link href="/">
+            <a className="text-gray-500 hover:text-gray-600 transition">Home</a>
+          </Link>
+          <Link href="/tags">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Topics
+            </a>
+          </Link>
+          
+        </div>
+        <div className="flex flex-col space-y-4">
+          <ExternalLink href="https://twitter.com/leeerob">
+            Twitter
+          </ExternalLink>
+        <ExternalLink href="https://instagram.com/yashjaing">Instagram</ExternalLink>
+          
+        </div>
+        <div className="flex flex-col space-y-4">
+        <ExternalLink href="https://oku.club/user/yashjain">Oku</ExternalLink>
+          <Link href="mailto:yash@yashjaing.com">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Mail
+            </a>
+          </Link>
+          
+          
         </div>
       </div>
-    </div>
-  )
+    </footer>
+  );
 }
-
-export default Footer
