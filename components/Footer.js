@@ -30,7 +30,6 @@ const footer = () => {
             Twitter
           </ExternalLink>
         <ExternalLink href="https://instagram.com/yashjaing">Instagram</ExternalLink>
-          
         </div>
         <div className="flex flex-col space-y-4">
         <ExternalLink href="https://oku.club/user/yashjain">Oku</ExternalLink>
