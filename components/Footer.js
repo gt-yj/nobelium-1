@@ -1,5 +1,4 @@
-import Link from 'next/link';
-
+import Link from 'next/link'
 const ExternalLink = ({ href, children }) => (
   <a
     className="text-gray-500 hover:text-gray-600 transition"
@@ -10,7 +9,6 @@ const ExternalLink = ({ href, children }) => (
     {children}
   </a>
 );
-
 export default function Footer() {
   return (
     <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full px-4">
@@ -25,7 +23,6 @@ export default function Footer() {
               Topics
             </a>
           </Link>
-          
         </div>
         <div className="flex flex-col space-y-4">
           <ExternalLink href="https://twitter.com/leeerob">
@@ -41,10 +38,8 @@ export default function Footer() {
               Mail
             </a>
           </Link>
-          
-          
         </div>
       </div>
     </footer>
-  );
+  )
 }
