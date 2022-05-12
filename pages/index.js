@@ -11,7 +11,7 @@ const blog = () => {
               Yash Jain
             </h1>
             <h2 className="text-gray-600 dark:text-gray-400 text-base font-medium">
-              Founder, Designer <br />& No-Code Developer.
+              Founder, Designer <br />& Web & No-Code Developer.
             </h2>
           </div>
           <div className="w-[82px] w-min-[82px]">
