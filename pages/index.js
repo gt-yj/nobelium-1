@@ -28,13 +28,13 @@ const blog = () => {
         What I'm doing now?
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-        I'm building{' '}
+        I'm building with{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://flowcode.studio"
+          href="https://bubble.io"
           className="underline"
-        >Flowcode,</a>{' '}A marketing Automations studio. I focus on fit and finish to solve problems and create seamless experiences with no-code tools like Bubble and Webflow.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.</p>
+        >bubble,</a>{' '}A No-Code App Builder. I focus on fit and finish to solve problems and create seamless experiences.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.</p>
         <span className="h-8" />
       </div>
     </Container>
