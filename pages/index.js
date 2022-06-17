@@ -34,7 +34,7 @@ const blog = () => {
           rel="noopener noreferrer"
           href="https://bubble.io"
           className="underline"
-        >bubble,</a>{' '}A No-Code App Builder. I focus on fit and finish to solve problems and create seamless experiences.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.< br /> < br/> If You'd like to collaborate on Cracking No-Code projects, hit me up at yash@yashjaing.com</p>
+        >bubble,</a>{' '}A No-Code App Builder. I focus on fit and finish to solve problems and create seamless experiences with No-Code Tools.< br /> < br/> Apart from that, you can call me a comedian, a bookworm, a traveller, a philosopher, or a human who stares at a black screen 24/7.< br /> < br/> If You'd like to collaborate on Cracking No-Code projects, hit me up at yash@yashjaing.com</p>
         <span className="h-8" />
       </div>
     </Container>
